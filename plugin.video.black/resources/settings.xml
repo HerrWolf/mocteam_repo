@@ -1,0 +1,12 @@
+﻿<settings>
+
+  <category label="Cuenta">
+	<setting id="username" type="text" option="writeable" label="UserName" default=""/>
+    <setting id="password" type="text" option="writeable,hidden" label="PassWord" default=""/>
+  </category>
+    
+  <category label="Control Parental">
+    <setting id="parentalblocked" label="Is Parental Blocked Applied?" type="bool" default="false" enable="true"/>
+  </category>
+ 
+ </settings>
